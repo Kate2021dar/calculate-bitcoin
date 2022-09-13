@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Calculate Bitcoin when input Bitcoin price and how much $ do you have. Codes by Kate Rybina"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Calculate Bitcoin</title>
+  </head>
+  <body>
+    <div class="content">
+      <h1>Calculate Bitcoin</h1>
+
+      <form id="input-data" class="input-data">
+        <p>What is Bitcoin price today?</p>
+        <input
+          type="text"
+          name="inputBitcoinPrice"
+          placeholder="Input Bitcoin Price "
+          id="input-price"
+          autofocus="on"
+          autocomplete="off"
+          class="input-price"
+        />
+        <p>How much $ do you have?</p>
+        <input
+          type="text"
+          name="inputAmount"
+          placeholder="Input amount"
+          id="input-amount"
+          autocomplete="off"
+          class="input-amount"
+        />
+        <br />
+        <input type="submit" value="Calculate" id="calculate" class="button" />
+        <input type="submit" value="Delete" id="remove" class="button" />
+      </form>
+
+      <h2>You can buy <span id="amount-btc"> </span> BTC</h2>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

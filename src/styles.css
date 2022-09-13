@@ -1,0 +1,50 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(160, 233, 236);
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  background-color: rgb(101, 191, 194);
+  margin: 15px auto;
+  padding: 5px;
+  max-width: 350px;
+}
+h1 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: blueviolet;
+}
+
+.input-data {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+  color: darkslateblue;
+}
+
+.input-amount {
+  margin-bottom: 20px;
+}
+
+h2,
+span {
+  font-size: 25px;
+  color: blueviolet;
+  text-align: center;
+}
+
+.button {
+  width: 80px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(141, 66, 211);
+  font-weight: 500;
+  font-size: 14px;
+}
